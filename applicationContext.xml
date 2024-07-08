@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+     
+     <bean id="empbean" class="com.Employee">
+     <property name="ename" value="Kavinilavu"></property>
+      <property name="eage"   value="20"></property>
+      <property name="edep"   value="Information technology"></property>
+      <property name="ecollege"   value="VSB Engineering College"></property>
+      <property name="eproject1"   value="Stock Management"></property>
+      <property name="eproject2"   value="Boutique"></property>
+      <property name="eskill1"   value="Core-Java"></property>
+      <property name="eskill2"   value="HTML/CSS"></property>
+      <property name="eskill3"   value="Servlet"></property>
+      <property name="eskill4"   value="Hibernate"></property>
+      <property name="eskill5"   value="Python"></property>
+      <property name="eskill6"   value="MySQL"></property>
+      <property name="eskill7"   value="Excel"></property>
+      <property name="einternship1"   value="Octanet Company"></property>		
+      <property name="einternship2"   value="Live Stream Technology"></property>
+      <property name="einternship3"   value="Cybernaut Company"></property>
+      <property name="ecertificate"   value="Programming in JAVA-NPTEL"></property>
+      <property name="ecertificate1"   value="HTML and CSS- Udemy"></property>
+      <property name="ecertificate2"   value="MySQL-Infosys Springboot"></property>
+      <property name="econtact"   value="nilavueshanth@gmail.com"></property></bean></beans>
